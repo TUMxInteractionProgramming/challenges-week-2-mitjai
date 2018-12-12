@@ -1,0 +1,90 @@
+/*GLOBAL*/
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* APP BAR*/
+
+h1 {
+    background-color: #3F51B5;
+    color: white;
+}
+
+/* CHANNEL LIST*/
+
+body {
+    background-color: #F5F5F5;
+}
+
+ul li {
+    height: 48px;
+    border-bottom: solid 1px #F5F5F5;
+    padding: 16px;
+    font-hight: 16px;
+    box-sizing: border-box;
+}
+ul li img {
+    vertical-align: middle;
+}
+
+.channels .selected {
+    border-left: solid 4px #3F51B5;
+    color: #3F51B5;
+}
+
+/* TAB BAR*/
+.tapbar button {
+    border: none;
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-size: 13px;
+    height: 72px;
+    width: 33%;
+    padding: 16px;
+}
+.tapbar img{
+    padding-bottom: 4px;
+}
+.tapbar .selected {
+    border-bottom: solid 4px #3F51B5;
+    color: #3F51B5;
+}
+button, a {
+    text-transform: uppercase;
+}
+
+/* MESSAGES */
+ 
+.message {
+    width: 80%;
+    margin-bottom: 8px;
+    margin-left: 2.5%;
+}
+.ownmessage{
+    margin-left: 17.5%;
+}
+.message button {
+    background-color: #CDDC39;
+    color: black;
+}
+.message a {
+    font-size: medium;
+}
+.message p {
+    background-color: white;
+    padding: 16px;
+}
+.date{
+    font-size: medium;
+}
+.message h3 {
+    font-size: larger;
+    font-style: normal;
+}
+h1 small strong {
+    text-transform: uppercase;
+}
